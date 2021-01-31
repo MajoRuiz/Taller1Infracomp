@@ -42,7 +42,7 @@ public class punto1Thread extends Thread {
 		try {
 		for (int i =0;i <= cont;i++)  {
 			if (esPar==true) {
-				System.out.println(punto1+i);
+				System.out.println(punto1+" "+i);
 				Thread.sleep(time);
 				
 				this.esPar=false;
